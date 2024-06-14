@@ -1,0 +1,15 @@
+from strategy_design_pattern.without_strategy_pattern.goods_vehicle import GoodsVehicle
+from strategy_design_pattern.without_strategy_pattern.offroad_vehicle import OffroadVehicle
+from strategy_design_pattern.without_strategy_pattern.passenger_vehicle import PassengerVehicle
+from strategy_design_pattern.without_strategy_pattern.sports_vehicle import SportsVehicle
+
+
+goods_vehicle_instance = GoodsVehicle()
+offroad_vehicle_instance = OffroadVehicle()
+passenger_vehicle_instance = PassengerVehicle()
+sports_vehicle_instance = SportsVehicle()
+
+goods_vehicle_instance.drive()
+offroad_vehicle_instance.drive()
+passenger_vehicle_instance.drive()
+sports_vehicle_instance.drive()
